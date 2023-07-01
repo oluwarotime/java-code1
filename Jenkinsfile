@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Checkout") {   
             steps {               	 
-                git branch: 'master', url: 'https://github.com/Ramkhushi/java-code1.git'        	 
+                git branch: 'master', url: 'https://github.com/oluwarotime/java-code1.git'        	 
             }    
         }
         stage('Maven Clean') {
